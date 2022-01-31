@@ -1,0 +1,18 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Confirm build of solutions
+      run: g++ /solutions/*.cpp
+    - name: Confirm build of examples
+      run: g++ /examples/*.cpp
