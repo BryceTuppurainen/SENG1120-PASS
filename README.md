@@ -17,7 +17,7 @@ This will likely be the most C++ programming you've done at Uni so far, if you'v
 
 - [A fundamental understanding of C++ Datatypes](https://www.w3schools.com/cpp/cpp_data_types.asp)
 
-- General Computer Science Terminology
+- General Computer Science Terminology (See Below)
 
 - Fundamental OOP Concepts from SENG1110 / ENGG1003
 
@@ -67,7 +67,7 @@ This will likely be the most C++ programming you've done at Uni so far, if you'v
 
 ![](./heap-vs-stack.png)
 
-**The magic of pointers is mainly that you can get the memory locations of data that is stored in the big heap stored as a tiny memory location in your fast-read/write stack memory allocation (usually < 8 bytes), pass them around between functions, copy them, and so on very very quickly by comparison to reading values off the heap over and over directly**
+**The magic of pointers is mainly that you can get the memory locations of data that is stored in the heap stored as a tiny memory location in your fast-read/write stack memory allocation (usually < 8 bytes), pass them around between functions, copy them, and so on very very quickly by comparison to reading values off the heap over and over directly**
 
 I'd recommend this:
 https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/
