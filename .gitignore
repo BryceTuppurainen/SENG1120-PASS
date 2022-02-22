@@ -1,2 +1,5 @@
 *.exe
 /.vscode
+*.docx
+*.pdf
+/worksheets
