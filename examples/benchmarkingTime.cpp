@@ -1,22 +1,14 @@
 /*
-
 1.0.0
-
 Author: Bryce Tuppurainen Jan-2022
-
 This script 'counts' by calculating the sum of everything between 0 and iter (i.e. arithmetic series)
-
 It does so iteratively, recursively
-
 It demonstrates the memory usage of the application and differences in speed
 between the three versions of the same method of calculating this arithmetic sum
 for your hardware
-
 Feel free to use this same method to measure the effectiveness of your own
 scripts if you're curious about why we use various datastructures
-
 Note: The Cherno has a useful video on benchmarking here in more depth: https://www.youtube.com/watch?v=YG4jexlSAjc
-
 */
 
 #include <iostream> // CLI IO
@@ -58,7 +50,8 @@ public:
         std::cout << timer_Name << " timer:" << std::endl;
         std::cout << "   " << us << " us" << std::endl;
         std::cout << "   " << ms << " ms" << std::endl;
-        std::cout << "   " << s << " s" << std::endl << std::endl;
+        std::cout << "   " << s << " s" << std::endl
+                  << std::endl;
     }
 
 private:
@@ -79,7 +72,8 @@ int recursive_function(int repeats, int &val)
 
 int main()
 {
-    std::cout << "iter value: " << iter << std::endl << std::endl;
+    std::cout << "iter value: " << iter << std::endl
+              << std::endl;
 
     {
         Timer timer("iterative val"); // Now it is defined, literally just whack this at the start of the scope you plan to time
@@ -99,5 +93,4 @@ int main()
     }
 
     std::cout << "Notice how much slower the recursive version is (the difference between the two increases faster the larger the difference due to a phenomena known as time complexity)" << std::endl;
-
 }
