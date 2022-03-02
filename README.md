@@ -1,4 +1,4 @@
-# SENG1120 PASS - 2022S1
+# SENG1120-PASS
 
 ### Welcome to the PASS Repository for SENG1120 PASS
 
@@ -11,6 +11,7 @@ This will likely be the most C++ programming you've done at Uni so far, if you'v
 ---
 
 ## What you should know
+
 ### (with resources for you to catch up if you need to):
 
 - [Basic C++ - At least 2-19 from GeeksForGeeks](https://www.geeksforgeeks.org/c-plus-plus/)
@@ -23,7 +24,7 @@ This will likely be the most C++ programming you've done at Uni so far, if you'v
 
 ---
 
-*This means you should be able to concisely and accurately define these terms (Potential Solns in glossary.md):*
+_This means you should be able to concisely and accurately define these terms (Potential Solns in glossary.md):_
 
 ### OOP Terms
 
