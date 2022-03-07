@@ -1,6 +1,6 @@
 #ifndef BENCHMARKINGTIMEH
 #define BENCHMARKINGTIMEH
-#include "benchmarkingTime.cpp"
+
 #include <iostream> // CLI IO
 #include <string>
 #include <chrono> // Time related functions
@@ -23,4 +23,5 @@ public:
 
     void Stop();
 };
+
 #endif

@@ -1,18 +1,23 @@
 /*
-1.0.0
+1.1.0
 Author: Bryce Tuppurainen Jan-2022
 This script 'counts' by calculating the sum of everything between 0 and iter (i.e. arithmetic series)
-It does so iteratively, recursively
+It does so iteratively, and then recursively
 It demonstrates the memory usage of the application and differences in speed
 between the three versions of the same method of calculating this arithmetic sum
 for your hardware
 Feel free to use this same method to measure the effectiveness of your own
 scripts if you're curious about why we use various datastructures
 Note: The Cherno has a useful video on benchmarking here in more depth: https://www.youtube.com/watch?v=YG4jexlSAjc
+
+Just remember that Chrono didn't really start getting used until C++ 11,
+so you can't use it for assignments in SENG1120, instead this is more just for general interest when you're trying
+to benchmark your code https://en.cppreference.com/w/cpp/chrono
 */
 
 #include "BenchmarkingTime.h"
 
+#include <iostream>
 #include <string>
 #include <memory> // Determine used bytes, note that due to phenomena called paging/framing it may not be exactly what you expect
 #include <chrono> // Time related functions

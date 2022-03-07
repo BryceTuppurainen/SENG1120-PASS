@@ -1,6 +1,6 @@
-#include "BenchmarkingTime.h"
+// See BenchmarkingTime.cpp
 
-#define iter 50000 // Try modding this to different +ve integer values to see how the difference changes
+#include "BenchmarkingTime.cpp"
 
 #include <iostream>
 
@@ -16,6 +16,8 @@ int recursive_function(int repeats, int &val)
 
 int main()
 {
+    int iter = 5000; // Try modding this to different +ve integer values to see how the difference changes
+
     std::cout << "iter value: " << iter << std::endl
               << std::endl;
 
