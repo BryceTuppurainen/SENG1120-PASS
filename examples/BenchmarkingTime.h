@@ -7,16 +7,20 @@
 
 class Timer
 {
+private:
+    std::chrono::time_point<std::chrono::high_resolution_clock> start_Time;
+
+    std::chrono::time_point<std::chrono::high_resolution_clock> end_Time;
+
+    std::string timer_Name;
+
 public:
+    Timer();
+
     Timer(std::string _timer_Name);
 
     ~Timer();
 
     void Stop();
-
-private:
-    std::chrono::time_point<std::chrono::high_resolution_clock> start_Time;
-    std::chrono::time_point<std::chrono::high_resolution_clock> end_Time;
-    std::string timer_Name;
 };
 #endif
